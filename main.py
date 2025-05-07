@@ -11,6 +11,7 @@ try:
 
 except socket.error:
     print("Невозможно определить IP")
+    return False
 
 
 def dos_atack(target_ip):
